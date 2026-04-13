@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>工程检测报告 - ZN24-0024</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Microsoft YaHei", "SimHei", Arial, sans-serif;
+      background: #f5f5f5;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 40px 20px;
+    }
+    .container {
+      background: #fff;
+      width: 100%;
+      max-width: 600px;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .logo-section {
+      background: #f0f0f0;
+      padding: 60px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .logo-circle {
+      width: 200px;
+      height: 200px;
+      background: #ffeb3b;
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+    .logo-icon {
+      width: 120px;
+      height: 60px;
+      position: relative;
+      margin-bottom: 10px;
+    }
+    .logo-icon::before {
+      content: '';
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      background: #e53935;
+      border-radius: 50%;
+      left: 10px;
+      top: 10px;
+      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    }
+    .logo-icon::after {
+      content: '';
+      position: absolute;
+      width: 80px;
+      height: 30px;
+      border: 8px solid #333;
+      border-radius: 50%;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+      transform: rotate(-45deg);
+      left: 25px;
+      top: 5px;
+    }
+    .logo-text {
+      font-size: 28px;
+      font-weight: bold;
+      color: #333;
+      letter-spacing: 8px;
+    }
+    .divider {
+      display: flex;
+      align-items: center;
+      padding: 20px 30px;
+      background: #fff;
+    }
+    .divider-line {
+      flex: 1;
+      height: 1px;
+      background: #ddd;
+    }
+    .divider-text {
+      padding: 0 20px;
+      color: #999;
+      font-size: 12px;
+    }
+    .info-section {
+      padding: 20px 30px 40px;
+      background: #fff;
+    }
+    .info-item {
+      display: flex;
+      margin-bottom: 15px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    .info-label {
+      color: #666;
+      min-width: 80px;
+      flex-shrink: 0;
+    }
+    .info-value {
+      color: #333;
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo-section">
+      <div class="logo-circle">
+        <div class="logo-icon"></div>
+        <div class="logo-text">科创检测</div>
+      </div>
+    </div>
+    <div class="divider">
+      <div class="divider-line"></div>
+      <div class="divider-text">报告信息</div>
+      <div class="divider-line"></div>
+    </div>
+    <div class="info-section">
+      <div class="info-item">
+        <span class="info-label">报告名称</span>
+        <span class="info-value">长沙市轨道交通1号线北延一期工程土建施工项目-沙河停车场</span>
+      </div>
+      <div class="info-item">
+        <span class="info-label">报告编号</span>
+        <span class="info-value">ZN24-0024</span>
+      </div>
+      <div class="info-item">
+        <span class="info-label">检测项目</span>
+        <span class="info-value">建筑智能检测</span>
+      </div>
+      <div class="info-item">
+        <span class="info-label">委托单位</span>
+        <span class="info-value">长沙市轨道交通一号线建设发展有限公司</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
